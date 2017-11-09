@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HTRouter (HTRouter)
+@interface UIButton (HTRouter)
 
 // DXRouter格式的hyperlink，比如 /DXHome/DXContent 或者  DXContent/#DXDialog
 // '/'开头的是全路由，反之是附加路由，详情看WIKI http://gitlab.baidao.com/dxios/DXRouter/wikis/home

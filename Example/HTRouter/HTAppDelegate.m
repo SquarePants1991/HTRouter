@@ -2,17 +2,20 @@
 //  HTAppDelegate.m
 //  HTRouter
 //
-//  Created by tomcat2088 on 11/09/2017.
-//  Copyright (c) 2017 tomcat2088. All rights reserved.
+//  Created by tomcat2088 on 09/19/2016.
+//  Copyright (c) 2016 tomcat2088. All rights reserved.
 //
 
 #import "HTAppDelegate.h"
+#import <HTRouter/HTRouter.h>
+#import <HTRouter/HTRouterUrlHandler.h>
 
 @implementation HTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [HTRouter startupWithHomeViewController:@"HTTab"];
+    [[HTRouterUrlHandler shared] registerUrl:@"content" forRouters:@[@"HTMultiChild:HTRed",@"HTContent",@"HTContent",@"HTContent",@"HTContent",@"HTContent",@"HTContent"]];
     return YES;
 }
 
@@ -43,4 +46,8 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    [[HTRouterUrlHandler shared] handleUrl:url];
+    return YES;
+}
 @end

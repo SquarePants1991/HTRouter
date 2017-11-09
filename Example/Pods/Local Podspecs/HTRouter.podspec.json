@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HTRouter/Classes/**/*"
+  "source_files": "HTRouter/Classes/**/*",
+  "dependencies": {
+    "MZFormSheetPresentationController": [
+      "~> 2.4.2"
+    ]
+  }
 }

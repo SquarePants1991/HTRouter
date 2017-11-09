@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16815189A4D0E61B95F5B8E5 /* HTContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1681540CAF212B313DD48CEC /* HTContentViewController.m */; };
+		168151A12D763E39D14A567F /* HTRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815885694E507F110B6E93 /* HTRedViewController.m */; };
+		16815594DD7A4FC07C9C5F17 /* HTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168151BD8F778A23688DBE0D /* HTAViewController.m */; };
+		16815B44E04ADD03AB8AA819 /* HTDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168157672AA229DF1C6705CC /* HTDialogViewController.m */; };
+		16815D851CB14DA8D4A8D221 /* HTMultiChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168156B4FD9DC2CD08237284 /* HTMultiChildViewController.m */; };
+		16815EAA316813BB013092EB /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815378106B3CBA7622E26A /* HTAppDelegate.m */; };
+		16815EBD12FC732F421B9B4A /* HTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815309EAA5B27A307BA563 /* HTHomeViewController.m */; };
+		16815F31F16C1EC163B120ED /* HTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16815E2B3E1BF27CE0DA83DB /* HTTabViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,7 +27,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D3A936EA1FB42FD200EA11FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A936E91FB42FD200EA11FA /* Main.storyboard */; };
 		D9DDED8B9547A16236DE4F18 /* Pods_HTRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CEF1788D46EA94563BADAB /* Pods_HTRouter_Tests.framework */; };
 		F3EB675A527E313609363924 /* Pods_HTRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C8A70F7D6D8F2761AE1A88 /* Pods_HTRouter_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +43,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		077B517A797E327E1792A0D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		077B517A797E327E1792A0D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		168151948839059BB548A690 /* HTRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTRedViewController.h; sourceTree = "<group>"; };
+		168151BD8F778A23688DBE0D /* HTAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAViewController.m; sourceTree = "<group>"; };
+		16815309EAA5B27A307BA563 /* HTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHomeViewController.m; sourceTree = "<group>"; };
+		16815378106B3CBA7622E26A /* HTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		16815384367747C04BB61FB3 /* HTMultiChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMultiChildViewController.h; sourceTree = "<group>"; };
+		1681540CAF212B313DD48CEC /* HTContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTContentViewController.m; sourceTree = "<group>"; };
+		168156B4FD9DC2CD08237284 /* HTMultiChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMultiChildViewController.m; sourceTree = "<group>"; };
+		168156D52F6236C9635B3CA3 /* HTContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTContentViewController.h; sourceTree = "<group>"; };
+		168157672AA229DF1C6705CC /* HTDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDialogViewController.m; sourceTree = "<group>"; };
+		16815885694E507F110B6E93 /* HTRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTRedViewController.m; sourceTree = "<group>"; };
+		168159BB5050E27BFEF843C1 /* HTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		168159F0E4E921E8FB711CCF /* HTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTabViewController.h; sourceTree = "<group>"; };
+		16815C1402A50C9B9898B110 /* HTDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDialogViewController.h; sourceTree = "<group>"; };
+		16815C761DCB72CB2DFBA10A /* HTAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAViewController.h; sourceTree = "<group>"; };
+		16815E2B3E1BF27CE0DA83DB /* HTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTabViewController.m; sourceTree = "<group>"; };
+		16815F2DB0414D3341D17599 /* HTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHomeViewController.h; sourceTree = "<group>"; };
 		58CEF1788D46EA94563BADAB /* Pods_HTRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HTRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,10 +69,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* HTRouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTRouter-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HTRouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTRouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,11 +78,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		643B77A3CC452D3E12F89210 /* Pods-HTRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTRouter_Tests/Pods-HTRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D660C1BA58D97CB99F8FC82 /* HTRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTRouter.podspec; path = ../HTRouter.podspec; sourceTree = "<group>"; };
+		8D660C1BA58D97CB99F8FC82 /* HTRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTRouter.podspec; path = ../HTRouter.podspec; sourceTree = "<group>"; };
 		B9780ECCC07E7DFE916D4B48 /* Pods-HTRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0A254769CEA1CF30C6F3D1 /* Pods-HTRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTRouter_Tests/Pods-HTRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CA7F2474CC92B46868BC6372 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA7F2474CC92B46868BC6372 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D3A936E91FB42FD200EA11FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D508DD5CBEFFB402A77A4390 /* Pods-HTRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F9C8A70F7D6D8F2761AE1A88 /* Pods_HTRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,14 +161,26 @@
 		6003F593195388D20070C39A /* Example for HTRouter */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* HTAppDelegate.h */,
-				6003F59D195388D20070C39A /* HTAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HTViewController.h */,
-				6003F5A6195388D20070C39A /* HTViewController.m */,
+				D3A936E91FB42FD200EA11FA /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				168159BB5050E27BFEF843C1 /* HTAppDelegate.h */,
+				16815378106B3CBA7622E26A /* HTAppDelegate.m */,
+				16815C761DCB72CB2DFBA10A /* HTAViewController.h */,
+				168151BD8F778A23688DBE0D /* HTAViewController.m */,
+				168156D52F6236C9635B3CA3 /* HTContentViewController.h */,
+				1681540CAF212B313DD48CEC /* HTContentViewController.m */,
+				16815C1402A50C9B9898B110 /* HTDialogViewController.h */,
+				168157672AA229DF1C6705CC /* HTDialogViewController.m */,
+				16815F2DB0414D3341D17599 /* HTHomeViewController.h */,
+				16815309EAA5B27A307BA563 /* HTHomeViewController.m */,
+				16815384367747C04BB61FB3 /* HTMultiChildViewController.h */,
+				168156B4FD9DC2CD08237284 /* HTMultiChildViewController.m */,
+				168151948839059BB548A690 /* HTRedViewController.h */,
+				16815885694E507F110B6E93 /* HTRedViewController.m */,
+				168159F0E4E921E8FB711CCF /* HTTabViewController.h */,
+				16815E2B3E1BF27CE0DA83DB /* HTTabViewController.m */,
 			);
 			name = "Example for HTRouter";
 			path = HTRouter;
@@ -250,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tomcat2088;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = P48344HVQL;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,10 +312,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D3A936EA1FB42FD200EA11FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +427,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* HTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				16815EAA316813BB013092EB /* HTAppDelegate.m in Sources */,
+				16815594DD7A4FC07C9C5F17 /* HTAViewController.m in Sources */,
+				16815189A4D0E61B95F5B8E5 /* HTContentViewController.m in Sources */,
+				16815B44E04ADD03AB8AA819 /* HTDialogViewController.m in Sources */,
+				16815EBD12FC732F421B9B4A /* HTHomeViewController.m in Sources */,
+				16815D851CB14DA8D4A8D221 /* HTMultiChildViewController.m in Sources */,
+				168151A12D763E39D14A567F /* HTRedViewController.m in Sources */,
+				16815F31F16C1EC163B120ED /* HTTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +563,7 @@
 			baseConfigurationReference = B9780ECCC07E7DFE916D4B48 /* Pods-HTRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P48344HVQL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTRouter/HTRouter-Prefix.pch";
 				INFOPLIST_FILE = "HTRouter/HTRouter-Info.plist";
@@ -539,6 +579,7 @@
 			baseConfigurationReference = D508DD5CBEFFB402A77A4390 /* Pods-HTRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P48344HVQL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTRouter/HTRouter-Prefix.pch";
 				INFOPLIST_FILE = "HTRouter/HTRouter-Info.plist";

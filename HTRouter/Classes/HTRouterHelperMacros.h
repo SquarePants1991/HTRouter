@@ -9,17 +9,17 @@
 #ifndef HTRouterHelperMacros_h
 #define HTRouterHelperMacros_h
 
-#define DXRouterInitPageFromStoryboard(StoryboardName,StoryboardID) \
+#define HTRouterInitPageFromStoryboard(StoryboardName,StoryboardID) \
 + (instancetype)instantiateViewController {\
     return [[UIStoryboard storyboardWithName:StoryboardName bundle:[NSBundle bundleForClass:self]] instantiateViewControllerWithIdentifier:StoryboardID];\
 }
 
-#define DXRouterInitPage() \
+#define HTRouterInitPage() \
 + (instancetype)instantiateViewController {\
     return [self new];\
 }
 
-#define DXRouterInitDialog(WidthPadding,Height) \
+#define HTRouterInitDialog(WidthPadding,Height) \
 @synthesize completedBlock;\
 - (CGSize)dialogSize {\
     return CGSizeMake([UIScreen mainScreen].bounds.size.width - WidthPadding * 2, Height);\

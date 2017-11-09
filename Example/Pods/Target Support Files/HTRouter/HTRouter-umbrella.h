@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "HTNotExistViewController.h"
+#import "HTRouter.h"
+#import "HTRouterHelperMacros.h"
+#import "HTRouterUrlHandler.h"
+#import "HTRouterViewControllerDialog.h"
+#import "HTRouterViewControllerInstantiation.h"
+#import "UIButton+HTRouter.h"
 
 FOUNDATION_EXPORT double HTRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char HTRouterVersionString[];

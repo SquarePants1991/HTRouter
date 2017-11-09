@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16feda6c-705c-4adf-be30-aad5fdcd7a2c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../HTRouter/Classes/ReplaceMe.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HTRouter.podspec" afterPath="$PROJECT_DIR$/../HTRouter.podspec" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTRouter/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTRouter/HTViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTRouter/HTViewController.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTRouter.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/HTRouter.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTRouter/Base.lproj/LaunchScreen.storyboard" afterPath="$PROJECT_DIR$/HTRouter/Base.lproj/LaunchScreen.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTRouter/HTAppDelegate.h" afterPath="$PROJECT_DIR$/HTRouter/HTAppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTRouter/HTAppDelegate.m" afterPath="$PROJECT_DIR$/HTRouter/HTAppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTRouter/main.m" afterPath="$PROJECT_DIR$/HTRouter/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/HTRouter.podspec.json" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/HTRouter.podspec.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/HTRouter/HTRouter-umbrella.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HTRouter/HTRouter-umbrella.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/HTRouter/HTRouter.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HTRouter/HTRouter.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example-frameworks.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Example/Pods-HTRouter_Example.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Tests/Pods-HTRouter_Tests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Tests/Pods-HTRouter_Tests.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Tests/Pods-HTRouter_Tests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-HTRouter_Tests/Pods-HTRouter_Tests.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HTRouter/Classes/HTRouter.h" afterPath="$PROJECT_DIR$/../HTRouter/Classes/HTRouter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HTRouter/Classes/HTRouter.m" afterPath="$PROJECT_DIR$/../HTRouter/Classes/HTRouter.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HTRouter/Classes/HTRouterHelperMacros.h" afterPath="$PROJECT_DIR$/../HTRouter/Classes/HTRouterHelperMacros.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.h" afterPath="$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.h" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +39,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_bd46f26121f3bb0d1ff2436774dafd4cb0ba3b7f" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HTNotExistViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTNotExistViewController.h">
+      <file leaf-file-name="HTTabViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTRouter/HTTabViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="553">
+              <caret line="25" column="76" lean-forward="false" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTRouter.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouter.h">
+      <file leaf-file-name="HTRouter.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouter.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="58" column="50" lean-forward="false" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+            <state relative-caret-position="357">
+              <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTAViewController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTRouter/HTAViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#140#169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTRouter.h" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/AppCode2017.2/DerivedData/HTRouter-gurtxtqptzfdnobeqwvwbpnvrbym/Build/Products/Debug-iphoneos/HTRouter/HTRouter.framework/Headers/HTRouter.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="e#511#534#0" expanded="true" />
               </folding>
@@ -37,18 +83,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTViewController.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTRouter/HTViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTRouterUrlHandler.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouterUrlHandler.m">
+      <file leaf-file-name="HTContentViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTRouter/HTContentViewController.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -57,67 +93,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTRouterHelperMacros.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouterHelperMacros.h">
+      <file leaf-file-name="HTContentViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTRouter/HTContentViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="211">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#146#181#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTRouterUrlHandler.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouterUrlHandler.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTRouterViewControllerDialog.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouterViewControllerDialog.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTRouterViewControllerInstantiation.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouterViewControllerInstantiation.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UIButton+HTRouter.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UIButton+HTRouter.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.m">
+      <file leaf-file-name="HTHomeViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTRouter/HTHomeViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMultiChildViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTRouter/HTMultiChildViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTRedViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTRouter/HTRedViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTRouter/main.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DX</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>HT</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/HTRouter</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -128,8 +167,6 @@
         <option value="$PROJECT_DIR$/../HTRouter/Classes/DXNotExistViewController.h" />
         <option value="$PROJECT_DIR$/../HTRouter/Classes/HTNotExistViewController.h" />
         <option value="$PROJECT_DIR$/../HTRouter/Classes/DXRouter.h" />
-        <option value="$PROJECT_DIR$/../HTRouter/Classes/HTRouter.h" />
-        <option value="$PROJECT_DIR$/../HTRouter/Classes/HTRouterHelperMacros.h" />
         <option value="$PROJECT_DIR$/../HTRouter/Classes/DXRouterUrlHandler.h" />
         <option value="$PROJECT_DIR$/../HTRouter/Classes/HTRouterUrlHandler.h" />
         <option value="$PROJECT_DIR$/../HTRouter/Classes/DXRouterViewControllerDialog.h" />
@@ -138,6 +175,29 @@
         <option value="$PROJECT_DIR$/../HTRouter/Classes/RouterViewControllerInstantiation.h" />
         <option value="$PROJECT_DIR$/../HTRouter/Classes/HTRouterViewControllerInstantiation.h" />
         <option value="$PROJECT_DIR$/../HTRouter/Classes/UIButton+DXRouter.h" />
+        <option value="$PROJECT_DIR$/HTRouter/DXAppDelegate.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTAppDelegate.h" />
+        <option value="$PROJECT_DIR$/HTRouter/DXAViewController.m" />
+        <option value="$PROJECT_DIR$/HTRouter/DXContentViewController.m" />
+        <option value="$PROJECT_DIR$/HTRouter/DXDialogViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTDialogViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/DXHomeViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTHomeViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/DXMultiChildViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTMultiChildViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/DXRedViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTRedViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/DXTabViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTTabViewController.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTAppDelegate.m" />
+        <option value="$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.h" />
+        <option value="$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.m" />
+        <option value="$PROJECT_DIR$/HTRouter/HTAViewController.m" />
+        <option value="$PROJECT_DIR$/HTRouter/HTContentViewController.m" />
+        <option value="$PROJECT_DIR$/../HTRouter/Classes/HTRouter.h" />
+        <option value="$PROJECT_DIR$/../HTRouter/Classes/HTRouterHelperMacros.h" />
+        <option value="$PROJECT_DIR$/HTRouter/HTDialogViewController.m" />
+        <option value="$PROJECT_DIR$/HTRouter/HTAViewController.h" />
       </list>
     </option>
   </component>
@@ -183,7 +243,39 @@
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="HTRouter" type="1d218c8b:XcodeProjectNode" />
+              <item name="Example for HTRouter" type="fcab9f18:XcodeViewNode" />
+              <item name="Supporting Files" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
               <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
+              <item name="HTRouter" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
+              <item name="HTRouter" type="fcab9f18:XcodeViewNode" />
+              <item name="HTRouter" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
+              <item name="HTRouter" type="fcab9f18:XcodeViewNode" />
+              <item name="HTRouter" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
             </path>
           </expand>
           <select />
@@ -194,6 +286,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="HTRouter_Example" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,33 +311,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510207717236</updated>
-      <workItem from="1510207722547" duration="428000" />
+      <workItem from="1510207722547" duration="2894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="428000" />
+    <option name="totallyTimeSpent" value="2894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19492386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -256,7 +350,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/HTRouter/HTAppDelegate.m</url>
+          <line>16</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/HTRouter/HTTabViewController.m</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/HTRouter/HTTabViewController.m</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -272,14 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouterHelperMacros.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -308,7 +412,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.m">
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="appcode.project-settings://56b2e461">
+      <provider selected="true" editor-type-id="AppCode.ProjectSettings">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -318,27 +435,195 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="232">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/UIButton+HTRouter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="58" column="50" lean-forward="false" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+        <state relative-caret-position="-796">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouterHelperMacros.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTDialogViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTDialogViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#145#179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTHomeViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTMultiChildViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTRedViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTAppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTTabViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTAViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#140#165#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTRouter/Classes/HTRouter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTContentViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTContentViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#146#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTHomeViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTMultiChildViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTRedViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTTabViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="25" column="76" lean-forward="false" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTRouter/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/AppCode2017.2/DerivedData/HTRouter-gurtxtqptzfdnobeqwvwbpnvrbym/Build/Products/Debug-iphoneos/HTRouter/HTRouter.framework/Headers/HTRouter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="e#511#534#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTRouter/HTViewController.m">
+    <entry file="file://$PROJECT_DIR$/HTRouter/HTAViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="237">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#140#169#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

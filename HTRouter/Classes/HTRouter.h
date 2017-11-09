@@ -4,7 +4,7 @@
 //
 // 用于ViewController间跳转的解耦，通过ViewController的类名进行跳转，在本类的上下文中称之为'viewControllerName'。
 // 比如DXHomeViewController，跳转时可使用
-// [[HTRouter shared] navigateTo:@"DXHomeViewController" arguments:@{@"content":@"Hello"}]; 或者
+// [[HTRouter shared] navigateTo:@"HTHomeViewController" arguments:@{@"content":@"Hello"}]; 或者
 // [[HTRouter shared] navigateTo:@"DXHome" arguments:@{@"content":@"Hello"}];
 // 去掉'viewControllerName'尾部的ViewController也是支持的。
 //
@@ -19,10 +19,10 @@
 #include "HTRouterHelperMacros.h"
 
 typedef enum : NSUInteger {
-    DXRouterDialogPresentTypeWait,//等待上一个窗口关闭，默认
-    DXRouterDialogPresentTypeIgnore,//如果已有窗口弹出，忽略新的窗口
-    DXRouterDialogPresentTypeForce,//关闭之前的弹窗，弹出新的
-} DXRouterDialogPresentType;
+    HTRouterDialogPresentTypeWait,//等待上一个窗口关闭，默认
+    HTRouterDialogPresentTypeIgnore,//如果已有窗口弹出，忽略新的窗口
+    HTRouterDialogPresentTypeForce,//关闭之前的弹窗，弹出新的
+} HTRouterDialogPresentType;
 
 @interface HTRouter : NSObject
 

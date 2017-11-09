@@ -127,25 +127,25 @@
 #pragma mark - Present Dialog
 
 - (void)presentAsDialog:(NSString *)viewControllerName arguments:(NSDictionary *)arguments completeBlock:(DXRouterDialogCompleteBlock)completeBlock {
-    [self presentAsDialog:viewControllerName arguments:arguments completeBlock:completeBlock presentType:DXRouterDialogPresentTypeWait];
+    [self presentAsDialog:viewControllerName arguments:arguments completeBlock:completeBlock presentType:HTRouterDialogPresentTypeWait];
 }
 
 - (void)presentAsDialog:(NSString *)viewControllerName arguments:(NSDictionary *)arguments {
-    [self presentAsDialog:viewControllerName arguments:arguments completeBlock:nil presentType:DXRouterDialogPresentTypeWait];
+    [self presentAsDialog:viewControllerName arguments:arguments completeBlock:nil presentType:HTRouterDialogPresentTypeWait];
 }
 
 - (void)presentAsDialog:(NSString *)viewControllerName {
-    [self presentAsDialog:viewControllerName arguments:nil completeBlock:nil presentType:DXRouterDialogPresentTypeWait];
+    [self presentAsDialog:viewControllerName arguments:nil completeBlock:nil presentType:HTRouterDialogPresentTypeWait];
 }
 
-- (void)presentAsDialog:(NSString *)viewControllerName arguments:(NSDictionary *)arguments completeBlock:(DXRouterDialogCompleteBlock)completeBlock presentType:(DXRouterDialogPresentType)presentType {
+- (void)presentAsDialog:(NSString *)viewControllerName arguments:(NSDictionary *)arguments completeBlock:(DXRouterDialogCompleteBlock)completeBlock presentType:(HTRouterDialogPresentType)presentType {
     UIViewController *viewController = [self viewControllerInstanceWithName:viewControllerName arguments:arguments];
     if ([viewController.class conformsToProtocol:@protocol(HTRouterViewControllerDialog)]) {
         id<HTRouterViewControllerDialog> dialog = viewController;
-        if (presentType == DXRouterDialogPresentTypeIgnore && self.formSheetController != nil) {
+        if (presentType == HTRouterDialogPresentTypeIgnore && self.formSheetController != nil) {
             return;
         }
-        if (presentType == DXRouterDialogPresentTypeForce && self.formSheetController != nil) {
+        if (presentType == HTRouterDialogPresentTypeForce && self.formSheetController != nil) {
             [self dismissDialog];
         }
         dispatch_async(self.dialogPresentQueue, ^{
