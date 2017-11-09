@@ -1,0 +1,6 @@
+framework module Pods_HTRouter_Tests {
+  umbrella header "Pods-HTRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
